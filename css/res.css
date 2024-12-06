@@ -1,0 +1,203 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .carousel-item img{
+        height: 300px !important;
+    } 
+    .carousel-caption {
+        bottom: 70px !important;
+    }
+    .tech-bottom p {
+        font-size: 2px;
+      
+    }
+    .tech-botto {
+        padding: 0 0 0 10px;
+    }
+    .tech i {
+        font-size: 50px;
+    }
+    .tech-botto p{
+        font-size: 11px !important;
+    }
+    .tech-botto h4 {
+        font-size: 15px;
+    }
+    .lead {
+        font-size: 12px !important;
+    }
+    .owl-prev i, .owl-next i {
+    
+        padding: 15px !important;
+    }
+    .owl-prev {
+        left: 18px !important;
+    }
+    .love-our {
+        margin: 3px 0px;
+    }
+    .overlay {
+        height: 30% !important;
+ }
+ 
+.fa-check:before {
+    content: "\f00c";
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.tic i {
+    color: red;
+    float: left;
+    padding: 15px 0px 1px 36px;
+    font-size: 25px
+}
+
+
+.tic p {
+    color: #bbbbbb;
+    float: left;
+    padding: 11px 98px 2px 14px;
+}
+.seting i {
+    font-size: 76px;
+   
+}
+.seting p{
+    font-size: 12px;
+}
+.first i{
+    float: left;
+}
+.filter-button{
+    font-size: 10px;
+}
+.wrapper h4{
+    font-size: 21px;
+}
+.wrapper p{
+    font-size: 10px;
+}
+.team p {
+    text-align: justify;
+    font-size: 12px;
+}
+.seting p{
+    font-size: 13px;
+}
+.join p{
+    font-size: 14px;
+}
+.container h2{
+    font-size: 21px;
+}
+.first-icon{
+    padding: 0 0 0 45px;
+}
+.first h2{
+    padding: 0 127px 0 0;
+}
+.seting{
+    padding: 20px 15px 10px 15px;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+.tic i {
+    color: red;
+    float: left;
+    padding: 15px 0px 1px 44px;
+    font-size: 25px;
+}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .love-our {
+        margin: 3px 0px;
+    }
+    .first i{
+        float: left !important;
+        
+    }
+    .first-icon{
+        padding: 0 0 0 45px;
+    }
+    .tic i{
+        padding: 1px 13px 5px 28px;
+    }
+    .tic p{
+       padding: 12px 1px 3px 0px;
+       float: none;
+    }
+    .overlay{
+        height: 116px;
+    }
+    .tic i {
+        padding: 11px 13px 5px 28px;
+    }
+    .first h2{
+        padding: 0 171px 0 0;
+    }
+    .navbar-nav {
+        float: left;
+        margin: 0;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .tech-botto p{
+        font-size: 13px !important;
+    }
+    .tic p {
+       
+        padding: 4px 0 0 12px !important;
+        font-size: 13px !important;
+    }
+    .tic i {
+     
+        padding: 0px 0 0 10px !important;
+        font-size: 20px !important;
+    }
+    .first p {
+        font-size: 12px;
+        padding: 0 0 0 9px;
+        
+    }
+    .first i {
+        padding: 9PX;
+    }
+    .seting p{
+        font-size: 17px;
+    }
+    .overlay {
+ 
+        height: 46%;
+     }
+     .first i{
+        float: right;
+     }
+     .love-our p{
+        font-size: 14px;
+     }
+     .seting{
+        padding: 20px 10px 10px 14px;
+     }
+
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
